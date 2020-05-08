@@ -52,11 +52,12 @@ A cheat sheet for GitHub Apps...
 * [Octokit libraries](https://developer.github.com/v3/libraries/)
 * [`github-apps-helper` plugin](https://github.com/swinton/insomnia-plugin-github-apps-helper) for [Insomnia](https://insomnia.rest)
 * [API route specifications](https://github.com/swinton/github-rest-apis-for-insomnia) for [Insomnia](https://insomnia.rest)
-* [Probot](https://probot.github.io/)
-* [smee.io](https://smee.io/) to test webhooks
+* [Probot](https://probot.github.io/) a Node.js framework for building GitHub Apps
+* [`smee.io`](https://smee.io/) a webhook payload delivery service
+* [`smee-client`](https://github.com/probot/smee-client) a client for receiving webhook payloads locally via `smee.io`
+* [`jsonwebtokenydoo`](https://github.com/integrations/jsonwebtokenydoo) a command line utility to assist with GitHub App authentication
 
 ## Best practices
-
 **Do:**
 * :white_check_mark: Use [webhooks](https://developer.github.com/webhooks/) to ingest data
 * :white_check_mark: Cache and re-use server-to-server (installation access tokens) as much as possible

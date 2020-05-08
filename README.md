@@ -18,7 +18,7 @@ A cheat sheet for GitHub Apps...
   * Have dedicated rate limits, that scale with the app's usage
   * Facilitate webhook event consumption
   * Follow a repo-centric permissions model through _installations_
-  * Work across GitHub.com and GitHub Enterprise Server
+  * Are supported by GitHub.com _and_ GitHub Enterprise Server
 
 * **Other key terms**:
   * `Installation`: Connects a GitHub App to one or more repositories owned by an organization or user
@@ -73,8 +73,8 @@ A cheat sheet for GitHub Apps...
 * :white_check_mark: Include a descriptive [User-Agent header](https://developer.github.com/v3/#user-agent-required) in your API requests
 * :white_check_mark: Save the `X-GitHub-Request-Id` response header value, especially for error (4xx, 5xx) responses
 * :white_check_mark: Subscribe to [this RSS feed](https://developer.github.com/changes.atom) for Platform updates
-* Consider listing your GitHub App on [GitHub Marketplace](https://github.com/marketplace)
-* Consider other best practices listed [here](https://developer.github.com/v3/guides/best-practices-for-integrators/)
+* :white_check_mark: Consider listing your GitHub App on [GitHub Marketplace](https://github.com/marketplace)
+* :white_check_mark: Consider other best practices listed [here](https://developer.github.com/v3/guides/best-practices-for-integrators/)
 
 **Don't:**
 * :x: Depend on concurrent requests, this can trigger [secondary rate limits](https://developer.github.com/v3/guides/best-practices-for-integrators/#dealing-with-abuse-rate-limits)

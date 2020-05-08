@@ -4,6 +4,7 @@ A cheat sheet for GitHub Apps...
 
 ## Contents
 * [Key concepts](#key-concepts)
+* [Creating your first GitHub App](#creating-your-first-github-app)
 * [Resources](#resources)
 * [Notable APIs for GitHub Apps](#notable-apis-for-github-apps)
 * [Tools](#tools)
@@ -27,7 +28,13 @@ A cheat sheet for GitHub Apps...
   * `User-to-server token`: Permits access to resources that are visible to _both_ an end-user _and_ the GitHub App, acquired through an OAuth-_like_ flow
   * `JWT`: ([JSON Web Tokens](https://jwt.io/)) an open web standard, allowing for information to be securely transmitted between two parties as a JSON object, in this context, JWTs are used to securely transmit a _signature_ to GitHub.com to confirm to GitHub that we are the App we are claiming to be
 
+## Creating your first GitHub App
+1. Navigate to GitHub Apps from your  [GitHub Developer Settings](https://github.com/settings/apps)
+2. Register a New GitHub App, setting up URLs, permissions, and events
+3. Download the private key and App ID and start coding!
+
 ## Resources
+* [Building GitHub Apps](https://developer.github.com/apps/building-github-apps/)
 * [GitHub Developer Documentation](https://developer.github.com/)
 * GitHub [REST](https://developer.github.com/v3/) and [GraphQL](https://developer.github.com/v4/) APIs
 * [Migrating OAuth Apps to GitHub Apps](https://developer.github.com/apps/migrating-oauth-apps-to-github-apps/)

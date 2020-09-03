@@ -63,6 +63,7 @@ A cheat sheet for GitHub Apps...
 * [`smee.io`](https://smee.io/) a webhook payload delivery service
 * [`smee-client`](https://github.com/probot/smee-client) a client for receiving webhook payloads locally via `smee.io`
 * [`jsonwebtokenydoo`](https://github.com/integrations/jsonwebtokenydoo) a command line utility to assist with GitHub App authentication
+* [`jwt-cli`](https://github.com/mike-engel/jwt-cli) a command line utility to assist with JWT creation
 
 ## Best practices
 **Do:**

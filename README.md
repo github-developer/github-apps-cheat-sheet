@@ -57,6 +57,7 @@ A cheat sheet for GitHub Apps...
 
 ## Tools
 * [Octokit libraries](https://developer.github.com/v3/libraries/)
+* [`apptokit`](https://github.com/jakewilkins/apptokit) a CLI for working with GitHub Apps, built by one of the GitHub Apps Engineers
 * [`github-apps-helper` plugin](https://github.com/swinton/insomnia-plugin-github-apps-helper) for [Insomnia](https://insomnia.rest)
 * [API route specifications](https://github.com/swinton/github-rest-apis-for-insomnia) for [Insomnia](https://insomnia.rest)
 * [Probot](https://probot.github.io/) a Node.js framework for building GitHub Apps
